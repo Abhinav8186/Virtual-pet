@@ -13,7 +13,7 @@ song = loadSound("ke.mp3")
 }
 
 function setup() {
-  //song.loop();
+  song.loop();
   database=firebase.database();
   createCanvas(1000,400);
   
